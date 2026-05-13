@@ -24,7 +24,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h5 className="font-bold text-[10px] uppercase tracking-widest text-slate-400 mb-1">Encrypted Mail</h5>
-                    <p className="text-sm font-bold text-slate-900">ops@whitenet.consulting</p>
+                    <p className="text-sm font-bold text-slate-900">test@whitenet.consulting</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -33,7 +33,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h5 className="font-bold text-[10px] uppercase tracking-widest text-slate-400 mb-1">Direct Line</h5>
-                    <p className="text-sm font-bold text-slate-900">+1 (555) 09X-ALPHA</p>
+                    <p className="text-sm font-bold text-slate-900">+60 555555555</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -42,7 +42,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h5 className="font-bold text-[10px] uppercase tracking-widest text-slate-400 mb-1">Global HQ</h5>
-                    <p className="text-sm font-bold text-slate-900">Level 42, Cyber Tower, Singapore</p>
+                    <p className="text-sm font-bold text-slate-900">Level B69, Bunker, Somewhere</p>
                   </div>
                 </div>
               </div>
