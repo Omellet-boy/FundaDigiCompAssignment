@@ -42,7 +42,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h5 className="font-bold text-[10px] uppercase tracking-widest text-slate-400 mb-1">Global HQ</h5>
-                    <p className="text-sm font-bold text-slate-900">Level B69, Bunker, Somewhere</p>
+                    <p className="text-sm font-bold text-slate-900">Level B69, Bunker, Lil Saint James</p>
                   </div>
                 </div>
               </div>
