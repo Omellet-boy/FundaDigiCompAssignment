@@ -5,32 +5,30 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Outfit", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
-  --color-brand-cyan: #22d3ee; /* cyan-400 */
+  --color-primary: #1e3a8a; /* Navy Blue */
+  --color-accent: #b91c1c;  /* Muted Red */
+  --color-bg-base: #f8f9fa;      /* Soft White/Gray */
 }
 
 @layer base {
   body {
-    @apply bg-[#050608] text-white antialiased selection:bg-cyan-500/30;
+    @apply bg-[var(--color-bg-base)] text-slate-900 antialiased selection:bg-blue-200;
   }
 }
 
 .bg-dot-pattern {
-  background-image: radial-gradient(#2a3142 1px, transparent 1px);
-  background-size: 32px 32px;
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
 }
 
 .glass {
-  @apply bg-black/40 backdrop-blur-md border-b border-white/10;
+  @apply bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm;
 }
 
 .stark-border {
-  @apply border border-white/10 bg-white/5;
-}
-
-.cyan-glow {
-  @apply shadow-[0_0_20px_-5px_rgba(34,211,238,0.3)];
+  @apply border border-slate-300 bg-white shadow-[2px_2px_0px_rgba(0,0,0,0.05)];
 }
 
 .mono-label {
-  @apply text-[10px] uppercase tracking-[0.3em] font-mono text-white/40;
+  @apply text-[10px] uppercase tracking-[0.2em] font-mono text-slate-500 font-bold;
 }
