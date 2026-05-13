@@ -14,7 +14,7 @@ export default function Home() {
             <div>
               <FadeIn>
                 <div className="inline-block px-3 py-1 bg-primary/5 border border-primary/20 text-[10px] tracking-[0.3em] uppercase text-primary font-bold mb-8">
-                  Security Integrity Since 1800
+                  Security Integrity Since 1869
                 </div>
               </FadeIn>
               
